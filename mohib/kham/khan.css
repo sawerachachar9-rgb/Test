@@ -1,0 +1,26 @@
+.heading{
+color: white;
+background-color:red ;
+border: 20px dotted black;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 20px;
+margin-bottom: 20px;    
+}
+.main{
+display: flex;
+justify-content: center;
+
+
+}
+.card{
+display: flex;
+justify-content: center;
+gap: 10px;
+align-items: center;
+
+}
+.card img{
+width: 100px;
+display: flex;
+}

@@ -1,0 +1,25 @@
+.heading{
+    display: flex;
+    justify-content: center;
+background-color: blue;
+border: dotted blue;
+margin-top: 20px;
+
+margin-bottom: 20px;
+}
+
+.card{
+display: flex;
+justify-content: center;
+gap: 20px;
+align-items: center; 
+margin-bottom: 20px;
+}
+.card img{
+display: flex;
+    height: 200px;
+    gap: 30px;
+}
+
+
+

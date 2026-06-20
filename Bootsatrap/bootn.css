@@ -1,0 +1,28 @@
+.costm{
+color: aqua;
+background-color: brown;
+font-size: 20px;
+border-radius: 20px;
+margin: 10px;
+}
+.container{
+color: aqua;
+background-color: brown;
+font-size: 20px;
+border-radius: 20px;
+margin: 10px;
+}
+.container-fluid{
+color: aqua;
+background-color: brown;
+font-size: 20px;
+border-radius: 10px;
+
+}
+.row{
+border: 10px solid black;
+
+
+
+
+}

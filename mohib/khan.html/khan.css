@@ -1,0 +1,52 @@
+.parents{
+color: white;
+background-color: black;
+border: 10px dotted red;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 10px;
+margin-left: 10px;
+display: flex;
+
+
+
+
+}
+.item1{
+color: aqua;
+background-color: blueviolet;
+
+}
+.item2{
+color: azure;
+background-color: blue;
+
+}
+.item3{
+color: blanchedalmond;
+background-color: greenyellow;
+
+}
+.heading{
+color: powderblue;
+background-color: purple;
+border: 10px double red;
+}
+.main{
+display: flex;
+justify-content: center;
+}
+.card{
+display: flex;
+justify-content: center;
+gap: 10px;
+align-items: center;
+}
+.card img{
+width: 100px;
+
+}

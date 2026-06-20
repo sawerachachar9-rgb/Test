@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background-color: aqua;
+}
+.logo img{
+ width: 150px; 
+border-radius: 20px;
+}
+.navlink{
+display: flex;
+font-size: 50px;
+text-decoration: none;
+gap: 20px;
+
+
+}
+.navlink :hover{
+background-color: black;
+color:red;
+
+}
+
+
+.content img {
+width: 90%;
+
+
+}
+.footer{
+display: flex;
+background-color: black;
+color: aqua;
+}
+.heading{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+background-color: brown;
+}
+.center{
+display: flex;
+justify-self:center;
+align-items: center;
+gap: 70px;
+}
+.card
+{
+height: 400px;
+transition: transform 0.3s ease;
+
+
+}
+
+.card img{
+width: 100%;
+height: 100%;
+border-radius: 30px;
+object-fit: cover;
+transition: transform 0.4s ease;
+
+
+
+
+
+}
+
+
+.card:hover img{
+transform: scale(1,2);
+
+
+}
+.overlay{
+color:white;
+background:rgba(0,0,0,0.5);
+font-size: 20px;
+width: 100px;
+padding: 10px;
+
+
+}
+.parent{
+display: grid;
+gap: 20px;
+padding: 20px;
+
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 100px 150px 130px   100px;
+grid-template-areas: 
+"header header header"
+"box box1 box1"
+"box box2 box3"
+"footer footer footer"
+;
+
+}
+.parent> div{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+border-radius: 
+
+
+}
+
+
+
+
+.header{
+background-color: aqua;
+grid-area: header;
+}
+.box{
+background-color: peru;
+    
+}
+
+
+
+
+.box1{
+grid-area: box1;
+    background-color: red;
+}
+
+.box2{
+background-color:yellow;
+    grid-area: box2;
+}
+.box3{
+background-color: blue;
+    grid-area: box3;
+}
+.footer{
+background-color: forestgreen;
+    grid-area: footer;
+}
+
+   .box {
+ background: linear-gradient(to right, red, blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+    <h1>i mam sawera</h1>
+<h2>i appling course</h2>
+<h3>web development</h3>
+<h4>center saleh mahar</h4>
+<h5>place in jeejal aman school</h5>
+<h6>only girls</h6>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perferendis eos culpa fugit hic ab obcaecati vitae nihil consequatur laborum pariatur voluptatibus, molestiae unde error possimus necessitatibus accusantium voluptate. <br><br> Suscipit!</p>
+<b>sawera</b>
+<i>sawera</i>
+<u>sawera</u>
+<h1>H   <sup>2</sup>        O</h1>
+<h2>X  <sub>3</sub>Y Y    <sub>4</sub>    X</h2>
+<h1>order list </h1>
+<ol type="A">
+<li>name</li>
+<li>city</li>
+<li>no</li>
+
+</ol>
+<h1>un order list</h1>
+<ul>
+<li>sawera</li>
+<li>ghotki</li>
+<li>120</li>
+
+
+
+</ul>
+<h1>table</h1>
+<table border="10">
+<th >name</th>
+<th>class</th>
+<th>marks</th>
+<tr>
+<td>sawera</td>
+<td>tenth</td>
+<td>100</td>
+
+
+</tr>
+<tr>
+<td>tasmeena</td>
+<td>ninth</td>
+<td>100</td>
+
+
+
+
+
+</tr>
+
+
+
+
+
+
+
+</table> <br><br>
+<form >
+<label for="your name">your name</label>
+<input type="your name" name="your name" id="your name" placeholder="inter here"your name> <br><br>
+<label for="father name">father name</label>
+<input type="father name" name="father name" id="father name" placeholder="inter here"father name> <br><br>
+<label for="contact number">contact number</label>
+<input type="number" name="contact number" id="contact number" placeholder="inter here"number> <br><br>
+<label for="email">email</label>
+<input type="email" name="email" id="email" placeholder="inter here"email> <br><br>
+<label for="date">date</label>
+<input type="date" name="date" id="date" placeholder="inter here"date> <br><br>
+<label for="gender">gender</label> <br><br>
+<input type="radio" name="gender" id="gender">
+<label for="male">male</label>
+<input type="radio" name="gender" id="gender">
+<label for="female">female</label> <br><br>
+<label for="select course">select course</label> <br><br>
+<input type="checkbox" name="web development" id="web development">
+<label for="web development">web development</label>
+<input type="checkbox" name="app course" id="app course">
+<label for="app course">app course</label>
+<input type="checkbox" name="digital markiting" id="digital markiting">
+<label for="digital markiting">digital markiting</label> <br><br>
+<label for="select adress">select adress</label>
+<select>
+<option value="adilpur">adilpur</option>
+<option value="karachi">ghotki</option>
+<option value="sukkar">sukkar</option>
+<option value="karachi">karachi</option>
+</select> <br><br>
+
+<input type="submit"> <br><br>
+
+<div class="container">
+<div class="logo">
+<img src="download.png" alt="">
+<a href="5.html">click now</a>
+</div>
+<div class="navlink">
+<a href="#">about </a>
+<a href="#">logo</a>
+<a href="#">detail</a>
+
+</div>
+</div>
+<div class="content">
+<img src="c:\Users\Admin\Pictures\download (3).jpg" alt="">
+</div>
+<div class="footer"><h1>jeejal aman public school</h1></div>
+<br><br>
+<div class="heading">
+<h1>image with trasition</h1>
+
+
+
+</div>
+<div class="center">
+<div class="card">
+<img src="c:\Users\Admin\Pictures\New folder\amirali-mirhashemian-jh5XyK4Rr3Y-unsplash.jpg" alt="">
+<div class="overlay">burger</div>
+
+</div>
+<div class="card">
+<img src="c:\Users\Admin\Pictures\New folder\ash-edmonds-fsI-_MRsic0-unsplash.jpg" alt="">
+<div class="overlay">drink</div>
+
+</div>
+<div class="card">
+<img src="c:\Users\Admin\Pictures\New folder\hrushi-chavhan-DROPNgCSqNI-unsplash.jpg" alt="">
+<div class="overlay">biryani</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<br><br>
+<div class="parent">
+<div class="header">header</div>
+<div class="box">box</div>
+<div class="box1">box1</div>
+<div class="box2">box2</div>
+<div class="box3">box3</div>
+<div class="footer">footer</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

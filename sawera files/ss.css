@@ -1,0 +1,29 @@
+.card{
+
+
+    display: flex;
+    justify-content: center;
+gap: 10px;
+align-items: center;
+}
+.heading{
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.heading{
+color: brown;
+display: flex;
+justify-content: center;
+}
+.card img{
+width: 100px;
+display: flex;
+}
+
+
+
+
+
+
+

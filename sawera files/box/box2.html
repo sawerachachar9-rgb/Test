@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+.parents{
+display: grid;
+gap: 20px;
+padding: 20px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 100px 150px 130px 100px;
+grid-template-areas: 
+"header header header"
+"sidebar content1 content1"
+"sidebar content2 content3"
+"footer footer footer" ;
+}
+.header{
+    background-color: aqua;
+    grid-area: header;
+}
+
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: aqua;
+}
+.content1{
+    background-color: red;
+grid-area: content1;
+}
+.content2{
+    background-color: purple;
+grid-area: content2;
+}
+.content3{
+    background-color: blue;
+  grid-area: content3;
+}
+.footer{
+    background-color: blueviolet;
+ grid-area: footer;
+}
+.parents > div{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+
+
+}
+.parent{
+border: 10px;
+width: 150px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+    <div class="parents">
+<div class="header">header</div>
+<div class="sidebar">sidebar</div>
+<div class="content1">content1</div>
+<div class="content2">content2</div>
+<div class="content3">content3</div>
+<div class="footer">footer</div>
+
+    </div>
+<br><br>
+<div class="parent">
+<div class="box">box1</div>
+<div class="box">box2</div>
+<div class="box">box3</div>
+</div>
+
+
+
+
+
+</body>
+</html>
